@@ -94,7 +94,7 @@ function activateMenuAtCurrentSection() {
                 .classList.add('active')
         } else {
             document.querySelector('nav ul li a[href*='+ sectionId +']')
-                .classList.add('active')
+                .classList.remove('active')
         }
     }
 }
